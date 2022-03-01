@@ -47,7 +47,7 @@ func (p Parameters) podReadyTimeout() time.Duration {
 }
 
 func (p Parameters) serviceReadyTimeout() time.Duration {
-	return 30 * time.Second
+	return 120 * time.Second
 }
 
 func (p Parameters) ipCacheTimeout() time.Duration {
